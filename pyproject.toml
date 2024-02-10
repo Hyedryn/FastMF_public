@@ -1,19 +1,23 @@
 [tool.poetry]
-name = "fastmf"
+name = "FastMF"
 version = "0.1.0"
 description = "FastMF is a python package for microstructural property characterization using deep learning based on diffusion MRI data."
 authors = ["Quentin Dessain <quentin.dessain@uclouvain.be>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 numpy = "^1.22"
 dipy = "^1.6"
-microstructure-fingerprinting-rensonnetg = {git = "https://github.com/rensonnetg/microstructure_fingerprinting.git"}
 matplotlib = "^3.5"
-cvxpy = "^1.3.1"
-numba = "^0.57.0"
-
+cvxpy = "<=1.3.1"
+numba = "<=0.57.0"
+tqdm = "<=4.48"
+pathos = "<=0.2.8"
+scipy = "<=1.7.3"
+nibabel = "<=5.0"
+torch = "<=2.0.0"
+scikit-learn = "<=1.0"
 
 [build-system]
 requires = ["poetry-core"]

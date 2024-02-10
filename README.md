@@ -1,4 +1,4 @@
-# FastMF_public
+# FastMF_public [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10643411.svg)](https://doi.org/10.5281/zenodo.10643411) [![PyPI](https://img.shields.io/pypi/v/FastMF?label=pypi%20package)](https://pypi.org/project/FastMF//)
 
 FastMF is a Python library designed to perform dictionary matching on diffusion MRI data to a precomputed dictionary of microstructural features, leveraging deep learning for enhanced accuracy and efficiency.
 ## Installation
